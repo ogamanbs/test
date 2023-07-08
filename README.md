@@ -1,6 +1,5 @@
-# Calculator program in java
-=============================
-
+## Calculator program in java
+--------------------------------
 you can perform 
 
 1. Aaddition
