@@ -1,5 +1,5 @@
 # Calculator program in java
------------------------------
+=============================
 
 you can perform 
 
@@ -10,7 +10,4 @@ you can perform
 
 in this program
 
-User Expectation : 
-==================================================================
-Not to expect much from this as this is made just to learn github 
-------------------------------------------------------------------
+
