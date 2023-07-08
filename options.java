@@ -11,16 +11,16 @@ public class options {
         int b = sc.nextInt();
         switch(n){
             case 1 : 
-                result = a + b;
+                result = (double)a + (double)b;
                 break;
             case 2 : 
-                result = a - b;
+                result = (double)a - (double)b;
                 break;
             case 3 : 
-                result = a * b;
+                result = (double)a * (double)b;
                 break;
             case 4 : 
-                result = a / b;
+                result = (double)a / (double)b;
                 break;
         }
         sc.close();
