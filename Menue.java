@@ -1,5 +1,5 @@
-public class menue {
-    public static void main(String[] args){
+public class Menue {
+    void menueCard(){
         System.out.println("   +++++++++++++++++++++++++++");
         System.out.println("   +                         +");
         System.out.println("   +        Menue            +");
@@ -10,5 +10,9 @@ public class menue {
         System.out.println("   +    4. Division          +");
         System.out.println("   +                         +");
         System.out.println("   +++++++++++++++++++++++++++");
+    }
+    public static void main(String[] args){
+       Menue m = new Menue();
+       m.menueCard();
     }
 }
