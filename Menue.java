@@ -1,4 +1,4 @@
-public class Menue {
+public class Menue extends Result{
     void menueCard(){
         System.out.println("   +++++++++++++++++++++++++++");
         System.out.println("   +                         +");
@@ -10,9 +10,5 @@ public class Menue {
         System.out.println("   +    4. Division          +");
         System.out.println("   +                         +");
         System.out.println("   +++++++++++++++++++++++++++");
-    }
-    public static void main(String[] args){
-       Menue m = new Menue();
-       m.menueCard();
     }
 }

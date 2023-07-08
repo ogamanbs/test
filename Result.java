@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class options {
+public class Result {
     double choose(){
         double result = 0.00;
         Scanner sc = new Scanner(System.in);
@@ -25,12 +25,5 @@ public class options {
         }
         sc.close();
         return result;
-    }
-    public static void main(String[] args){
-        options obj = new options();
-        double x ;
-        x = obj.choose();
-        System.out.println("\nThe result is : " + x);
-        System.out.println("");
     }
 }
